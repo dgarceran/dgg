@@ -14,8 +14,9 @@
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/skeleton.css">
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/normalize.css">
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/includes/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
-	<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/includes/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/includes/slick/slick-theme.css"/>
+	<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/includes/slick/slick.min.js"></script>
 	<?php $logo_link = WP_CONTENT_URL."/themes/dgg/images/logo.png"; ?>
 </head>
 <div class='container'>

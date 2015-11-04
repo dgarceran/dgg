@@ -151,6 +151,22 @@ footer h3{
 .slide {
 	height: calc(100% - 76px);
 	overflow: hidden;
+	width: 100%;
+	min-height: 1000px !important;
+}
+#slide-1{
+	background: url(http://localhost/prueba_wp/wp-content/uploads/2015/11/bg1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#slide-2{
+	background: url(http://localhost/prueba_wp/wp-content/uploads/2015/11/bg2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 .slide img{
 	width: 100%;
