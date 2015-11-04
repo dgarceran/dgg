@@ -14,11 +14,11 @@
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/normalize.css">
 	<?php $logo_link = WP_CONTENT_URL."/themes/dgg/images/logo.png"; ?>
 </head>
-<div id="content" class='container'>
+<div class='container'>
 	<header>
 		<div class="row">
 			<div id="logo" class='three columns'>
-				<img src="<?php echo $logo_link; ?>" alt="">
+				<a href="/"><h1>david.garceran.</h1></a>
 			</div>
 			<nav id="#menu-row" class='nine columns'>
 				<?php 
@@ -45,3 +45,4 @@
 			</nav>
 		</div>
 	</header>
+</div>

@@ -14,16 +14,128 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+/************ MAIN PALETTE ***********
+
+* Main color:
+		#28794C rgb(40, 121, 76)
+
+* From darker to lighter:
+		#000803 rgb(0, 8, 3)
+		#03411E rgb(3, 65, 30)
+		#6EB28B rgb(110, 178, 139)
+		#DDF5E8 rgb(221, 245, 232)
+
+*********** END PALETTE ************/
+
+/* HELPERS */
+.trans {
+	-webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+/* END HELPERS */
+
+/* HEADER */
 .menu-item{
 	position: relative;
 	display: inline-block;
 	width: 33%;
 	float: left;
+	text-align: center;
 }
-#logo img{
-	max-width: 150px !important;
+#logo a {
+	text-decoration: none !important;
+	color: black !important;
 }
-.menu li{
-	color: black;
-	
+#logo h1{
+	-webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
+#logo:hover h1{
+	color: #28794C;
+}
+.menu li a{
+	color: #000803;
+	text-decoration: none;
+	padding-bottom: 10px;
+	text-transform: lowercase;
+	width: 50%;
+	position: relative;
+	display: inline-block;
+	-webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.menu-item:hover a{
+	color: #28794C;
+}
+.current_page_item a{
+	border-bottom: 3px solid #28794C;
+}
+/* END HEADER */
+
+/* FOOTER */
+footer{
+	color: white;
+	background-color: #03411E;
+	padding: 50px 0px 35px;
+}
+footer h3{
+	cursor: default;
+}
+
+#dgg-footer-text{
+	color:white;
+	-webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+#dgg-footer-text:hover{
+	color: #DDF5E8;
+}
+
+#menu-secondary li a{
+	display: block;
+	width: 100%;
+	color: white;
+	-webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+#menu-secondary li a:hover{
+	color: #DDF5E8;
+}
+#menu-secondary li{
+	width: 100%;
+	text-align: left;
+}
+#menu-secondary .current_page_item a{
+	border-bottom: 0px;
+}
+
+#dgg-links{
+	text-align: left;
+}
+#dgg-links ul a{
+	text-decoration: none;
+}
+#dgg-links ul a li{
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	padding-bottom: 10px;
+	-webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+#dgg-links ul a:hover li{
+	color: #DDF5E8;
+}
+/* END FOOTER */
