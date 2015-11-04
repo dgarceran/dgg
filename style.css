@@ -173,3 +173,9 @@ footer h3{
 	height: calc(100% - 76px);
 }
 /* END SLIDER */
+
+/* ABOUT ME */
+#about-me-content{
+	margin-bottom: 30px;
+}
+/* END ABOUT ME*/

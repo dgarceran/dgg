@@ -23,7 +23,7 @@
 	<header>
 		<div class="row">
 			<div id="logo" class='three columns'>
-				<a href="/"><h1>david.garceran.</h1></a>
+				<a href="<?php echo get_bloginfo( 'wpurl' ); ?>"><h1>david.garceran.</h1></a>
 			</div>
 			<nav id="#menu-row" class='nine columns'>
 				<?php 
