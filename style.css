@@ -139,3 +139,21 @@ footer h3{
 	color: #DDF5E8;
 }
 /* END FOOTER */
+
+/* SLIDER FULL WIDTH */
+.dgg-fullwidth-slider{
+	width: 100%;
+	height: calc(100% - 76px);
+}
+.slick-arrow{
+	display: none !important;
+}
+.slide {
+	height: calc(100% - 76px);
+	overflow: hidden;
+}
+.slide img{
+	width: 100%;
+	height: calc(100% - 76px);
+}
+/* END SLIDER */
