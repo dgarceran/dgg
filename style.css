@@ -27,6 +27,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 *********** END PALETTE ************/
 
+/* BASICS */
+html{
+	margin-top: 0 !important;
+}
+/* END BASICS */
+
+
 /* HELPERS */
 .trans {
 	-webkit-transition: all 0.2s ease-out;
@@ -153,16 +160,6 @@ footer h3{
 	overflow: hidden;
 	width: 100%;
 	min-height: 1000px !important;
-}
-#slide-1{
-	background: url(http://localhost/prueba_wp/wp-content/uploads/2015/11/bg1.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-#slide-2{
-	background: url(http://localhost/prueba_wp/wp-content/uploads/2015/11/bg2.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -176,6 +173,18 @@ footer h3{
 
 /* ABOUT ME */
 #about-me-content{
-	margin-bottom: 30px;
+	margin: 50px auto;
 }
 /* END ABOUT ME*/
+
+/* CONTACT */
+#contact-content{
+	margin: 50px auto;
+}
+/* END CONTACT */
+
+/* BLOG */
+#blog-content{
+	margin: 50px auto;
+}
+/* END BLOG */

@@ -9,14 +9,6 @@
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
-	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/skeleton.css">
-	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/normalize.css">
-	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/includes/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/includes/slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/includes/slick/slick-theme.css"/>
-	<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/includes/slick/slick.min.js"></script>
 	<?php $logo_link = WP_CONTENT_URL."/themes/dgg/images/logo.png"; ?>
 </head>
 <div class='container'>
