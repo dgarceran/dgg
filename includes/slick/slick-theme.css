@@ -112,15 +112,15 @@
 }
 
 /* Dots */
-.slick-slider
+/*.slick-slider
 {
     margin-bottom: 30px;
-}
+}*/
 
 .slick-dots
 {
     position: absolute;
-    bottom: 15%;
+    top: 50%;
 
     display: block;
 

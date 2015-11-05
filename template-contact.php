@@ -7,7 +7,7 @@
 			<h2>contact.</h2>
 		</div>
 		<div class="row">
-			<div class="twelve columns">
+			<div class="nine columns offset-by-three">
 				<?php the_content(); ?>
 			</div>
 		</div>

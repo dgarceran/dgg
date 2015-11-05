@@ -1,16 +1,12 @@
 <?php /* Template Name: Blog */ ?>
 <?php get_header(); ?>
-
- <?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
-
-	<?php if( have_posts() ): ?>
-
-        <?php while( have_posts() ): the_post(); ?>
-
-        <div class="container" id='blog-content'>
+<?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
+<div class="container" id='blog-content'>
         	<div class="row">
         		<h2>blog.</h2>
         	</div>
+	<?php if( have_posts() ): ?>
+        <?php while( have_posts() ): the_post(); ?>
         	<div class="row">
         		<div class="twelve columns">
         			<div id="post-<?php get_the_ID(); ?>" <?php post_class(); ?>>
@@ -26,14 +22,12 @@
 		            </div><!-- /#post-<?php get_the_ID(); ?> -->
         		</div>
         	</div>
-        </div>   
-
         <?php endwhile; ?>
 
 		<div class="navigation">
 			<span class="newer"><?php previous_posts_link(__('« Newer','dgg')) ?></span> <span class="older"><?php next_posts_link(__('Older »','dgg')) ?></span>
 		</div><!-- /.navigation -->
-
+</div> 
 	<?php else: ?>
 
 		<div id="post-404" class="noposts">

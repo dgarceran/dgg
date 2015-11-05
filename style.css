@@ -30,6 +30,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* BASICS */
 html{
 	margin-top: 0 !important;
+	overflow: hidden;
 }
 /* END BASICS */
 
@@ -82,6 +83,9 @@ html{
 }
 .current_page_item a{
 	border-bottom: 3px solid #28794C;
+}
+#menu-primary li a{
+	font-size: 18px;
 }
 /* END HEADER */
 
@@ -168,6 +172,17 @@ footer h3{
 .slide img{
 	width: 100%;
 	height: calc(100% - 76px);
+}
+.slide-text .row .twelve{
+	padding: 25%;
+}
+.slide-text .row .twelve h3{
+	text-align: center;
+	background-color: rgba(110, 178, 139, 0.6);
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid rgba(110, 178, 139, 0.9);
+	color: #03411E;
 }
 /* END SLIDER */
 
