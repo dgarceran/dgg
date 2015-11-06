@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <?php if ( have_posts() ) : ?>
 <?php while ( have_posts() ) : the_post(); ?>
-<div class='dgg-fullwidth-slider noscroll'>
+<div class='dgg-fullwidth-slider'>
 	<div class="slide" id="slide-1" style="background: url(<?php echo get_field('link_image_1'); ?>) no-repeat center center fixed;">
 		<!-- <div class='container slide-text'>
 			<div class="row">

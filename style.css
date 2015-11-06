@@ -30,7 +30,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* BASICS */
 html{
 	margin-top: 0 !important;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 /* END BASICS */
 
@@ -160,14 +160,15 @@ footer h3{
 	display: none !important;
 }
 .slide {
-	height: calc(100% - 76px);
-	overflow: hidden;
+	/*height: calc(100% - 76px);*/
+	/*overflow: hidden;*/
 	width: 100%;
-	min-height: 1000px !important;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	/*min-height: 1000px !important;*/
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	 background-size: cover !important;
+background-origin: content-box !important;
 }
 .slide img{
 	width: 100%;

@@ -79,8 +79,13 @@
     display: none;
     float: left;
 
-    height: 100%;
+    height: calc(100vh - 76px);
     min-height: 1px;
+}
+@media (max-width: 550px) {
+    .slick-slide{
+        height: calc(100vh - 150px);
+    }
 }
 [dir='rtl'] .slick-slide
 {
