@@ -191,6 +191,16 @@ background-origin: content-box !important;
 #about-me-content{
 	margin: 50px auto;
 }
+.tab .row h3{
+	text-align: center;
+	font-size: 22px;
+	cursor: pointer;
+}
+.tab-active{
+	padding-bottom: 5px;
+	border-bottom: 3px solid #28794C;
+	margin-bottom: 10px;
+}
 /* END ABOUT ME*/
 
 /* CONTACT */
