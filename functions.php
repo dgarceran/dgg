@@ -17,6 +17,7 @@
 	function themeslug_enqueue_script() {
 		wp_enqueue_script( 'jQuery', 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', 0 );
 		wp_enqueue_script( 'slick',  get_template_directory_uri() . '/includes/slick/slick.min.js', 1 );
+		// wp_enqueue_script( 'recaptcha',  get_template_directory_uri() . 'https://www.google.com/recaptcha/api.js', 2 );
 	}
 
 	add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_style' );

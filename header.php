@@ -10,6 +10,7 @@
 	<![endif]-->
 	<?php wp_head(); ?>
 	<?php $logo_link = WP_CONTENT_URL."/themes/dgg/images/logo.png"; ?>
+	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js" ></script>
 </head>
 <div class='container'>
 	<header>
