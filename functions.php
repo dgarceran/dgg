@@ -22,4 +22,11 @@
 
 	add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_style' );
 	add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_script' );
+
+	// Render title
+	function theme_slug_setup() {
+		add_theme_support( 'title-tag' );
+	}
+
+	add_action( 'after_setup_theme', 'theme_slug_setup' );
  ?>
