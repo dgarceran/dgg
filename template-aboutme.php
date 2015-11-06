@@ -30,36 +30,55 @@
 				</div>
 				<div class="row tabs-content">
 					<div class="row tab-content tab1" style="display:none">
-						<div class='twleve columns'>
-							<p>
-								content asldkjfnalksdjfnklasdnfkljadsf
-								asdfknasldfjnklasjdf
-								asdkkfjnasldkfnkalsdfnkADFSNLKJADFS
-								ASKDFLASDKFLÑASDFLÑKDFJ
-								skdñflmlsdfklñsdfkglñfsdk1
-							</p>
+						<div class='twelve columns'>
+							<?php echo get_field("music"); ?>
 						</div>
 					</div>
 					<div class="row tab-content tab2" style="display:none">
-						<div class='twleve columns'>
-							<p>
-								content asldkjfnalksdjfnklasdnfkljadsf
-								asdfknasldfjnklasjdf
-								asdkkfjnasldkfnkalsdfnkADFSNLKJADFS
-								ASKDFLASDKFLÑASDFLÑKDFJ
-								skdñflmlsdfklñsdfkglñfsdk2
-							</p>
+						<div class='twelve columns'>
+							<div class="row">
+								<div class="four columns">
+									<img src="<?php echo get_field('image_link_1'); ?>" alt="">
+								</div>
+								<div class="four columns">
+									<img src="<?php echo get_field('image_link_2'); ?>" alt="">
+								</div>
+								<div class="four columns">
+									<img src="<?php echo get_field('image_link_3'); ?>" alt="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="four columns">
+									<img src="<?php echo get_field('image_link_4'); ?>" alt="">
+								</div>
+								<div class="four columns">
+									<img src="<?php echo get_field('image_link_5'); ?>" alt="">
+								</div>
+								<div class="four columns">
+									<img src="<?php echo get_field('image_link_6'); ?>" alt="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="four columns">
+									<img src="<?php echo get_field('image_link_7'); ?>" alt="">
+								</div>
+								<div class="four columns">
+									<img src="<?php echo get_field('image_link_8'); ?>" alt="">
+								</div>
+								<div class="four columns">
+									<img src="<?php echo get_field('image_link_9'); ?>" alt="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="four columns">
+									<p><?php echo get_field("extra_text"); ?></p>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="row tab-content tab3" style="display:none">
-						<div class='twleve columns'>
-							<p>
-								content asldkjfnalksdjfnklasdnfkljadsf
-								asdfknasldfjnklasjdf
-								asdkkfjnasldkfnkalsdfnkADFSNLKJADFS
-								ASKDFLASDKFLÑASDFLÑKDFJ
-								skdñflmlsdfklñsdfkglñfsdk3
-							</p>
+						<div class='twelve columns'>
+							<?php echo html_entity_decode(get_field("software")); ?>
 						</div>
 					</div>
 				</div>

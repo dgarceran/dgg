@@ -201,6 +201,10 @@ background-origin: content-box !important;
 	border-bottom: 3px solid #28794C;
 	margin-bottom: 10px;
 }
+.tab2 .twelve .row .four img{
+	width: 100% !important;
+	margin-bottom: 20px;
+}
 /* END ABOUT ME*/
 
 /* CONTACT */
@@ -214,3 +218,9 @@ background-origin: content-box !important;
 	margin: 50px auto;
 }
 /* END BLOG */
+
+/* SINGLE */
+#single-content{
+	margin: 50px auto;
+}
+/* END SINGLE */
