@@ -14,5 +14,5 @@ Use it to make something cool, have fun, and share what you've learned with othe
 <p>So go to grab it and have fun!</p>
 <h3>Contact and demo</h3>
 <p>The demo is my own website: <a href="http://davidgarceran.com" target="_blank">davidgarceran.com</a></p>
-<p>Of course it has been modified for my own purposes, so if you want to ask me something, use <a href="http://davidgarceran.com" target="_blank">this contact form</a>.</p>
+<p>Of course it has been modified for my own purposes, so if you want to ask me something, use <a href="http://davidgarceran.com/contact/" target="_blank">this contact form</a>.</p>
 <p>I'll answer as soon as I can!</p>
