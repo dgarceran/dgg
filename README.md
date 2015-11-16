@@ -1,6 +1,6 @@
 # DGG, Custom Wordpress Theme
 <h3>The theme</h3>
-<p>DGG is a custom Wordpress theme I made for my own website and my own projects. It can be modified, and it's meant to be used with three plugins: Slick(for the slider of the homepage, which it's not good for the SEO), Contact Form 7 and Advanced Custom Fields.</p>
+<p>DGG is a custom Wordpress theme I made for my own website and my own projects. It can be modified, and it's meant to be used with two plugins: <a href='https://es.wordpress.org/plugins/contact-form-7/'>Contact Form 7</a> and <a href='http://www.advancedcustomfields.com/'>Advanced Custom Fields</a>. It also uses <a href='http://kenwheeler.github.io/slick/'>Slick</a> for the slider of thehomepage (which it's not good for the SEO).</p>
 <p>Check the code to use them properly!</p>
 <h3>Installation</h3>
 <p>Download the theme, and upload it to: <pre>/wp-content/themes</pre></p>
